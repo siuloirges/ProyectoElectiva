@@ -1,0 +1,256 @@
+/* Google Font Import - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+hr{
+    background-color: #707070;
+    opacity: .1;
+}
+
+
+.scroll-box::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.scroll-box::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.scroll-box::-webkit-scrollbar-button:increment,.scroll-box::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.scroll-box::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.scroll-box::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 100px;
+    border: 2px solid transparent;
+}
+
+.scroll-box::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+
+body::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+body::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+body::-webkit-scrollbar-button:increment,body::-webkit-scrollbar-button {
+    display: none;
+} 
+
+body::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 100px;
+    border: 2px solid transparent;
+}
+
+body::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+
+
+
+.swal2-container .swal2-popup{
+    grid-column: 2;
+    grid-row: 2;
+    align-self: center;
+    justify-self: center;
+    background: rgba(0,0,0,0);
+    backdrop-filter: blur(15px);
+    color: black;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, .05) ,0px 10px 10px rgba(0, 0, 0, .025) ,0px 10px 10px rgba(0, 0, 0, .015);
+    border-radius: 0px !important;
+    border-top: solid black !important;
+    border-bottom: solid black !important;
+    /* animation-name: intipop ;
+    animation-duration: 2s!important; */
+
+}
+
+
+.swal2-icon.swal2-success {
+    border-color: black;
+    color: black;
+}
+
+.swal2-icon {
+    border-color: black !important;
+    color: black !important;;
+}
+
+
+.swal2-container.swal2-backdrop-show, .swal2-container.swal2-noanimation {
+    background: rgba(0,0,0,0) !important;
+}
+
+
+.btn-success{
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 100px;
+    padding: 10px;
+    margin: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-weight: lighter;
+    color: black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .25);
+    transition: .25s;
+}
+
+.btn-success:hover {
+    filter: brightness(1.2);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, .25);
+    transition: .25s;
+} 
+
+.btn-success:active {
+    /* filter: brightness(-.8); */
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
+    transition: .25s;
+    transform: scale(.98);
+} 
+
+
+.btn-danger{
+    background-color: black;
+    outline: none;
+    border: none;
+    border-radius: 100px;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 10px;
+    font-weight: lighter;
+    color: white;
+}
+
+
+.btn-danger:hover {
+    filter: brightness(1.2);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, .25);
+    transition: .25s;
+} 
+
+.btn-danger:active {
+    /* filter: brightness(-.8); */
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
+    transition: .25s;
+    transform: scale(.98);
+} 
+
+
+
+
+
+.mesaje{
+    display: flex;
+    background: #00a65a;
+    padding: 20px;
+    width: 100%;
+    border-radius: 5px;
+    transition: .5s;
+    color: white;
+    
+    /* margin: ; */
+}
+
+.mesaje:hover{
+    display: flex;
+    background: white;
+    padding: 20px;
+    width: 100%;
+    border-radius: 5px;
+    transition: .5s;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, .1);
+    /* transform: translateY(-10px); */
+    color: black;
+    
+    /* margin: ; */
+}
+
+.mesaje .icon-info{
+    transform: scale(2);
+    margin-top: 2.5px;
+    
+    
+}
+
+.mesaje p {
+    padding-left: 10px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .1);
+
+}
+
+
+
+
+
+
+#download{
+    background: #3c8dbc;    
+    text-decoration: none;
+    /* margin: 10px; */
+    font-weight: bold;
+    color: white;
+    padding: 8px;
+    padding-right: 10px;
+    border-radius: 8px;
+
+    /* box-shadow: 2px 2px 1px rgba(0, 0, 0, .3); */
+    transition: .5s;
+}
+
+#download:hover{
+   filter: brightness(1.2);
+   /* box-shadow: 3px 3px 5px rgba(0, 0, 0, .3); */
+   transition: .5s;
+
+}
+
+#download:active{
+   filter: brightness(1);
+   /* box-shadow: 2px 2px 1px rgba(0, 0, 0, .3); */
+   transition: .5s;
+}
+
+
+
+#download ion-icon{
+    transform: scale(1.5) translateX(5px);
+    padding-right: 10px;
+}
+
+
+.home{
+
+    display: flex;
+    padding: 30px ;
+    flex-direction:hd;
+    align-items: flex-start;
+    justify-content: right;
+    width: 80%;
+    transition: .5;
+    flex-direction: column;
+
+}

@@ -1,0 +1,119 @@
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    background: url('/ProyectoElectiva/resourses/assets/back.jpg');
+    backdrop-filter: blur(90px);
+    
+}
+
+
+.buttom{
+    background-color: white;
+    /* width: 250px; */
+    margin: 20px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    transition: .25s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    /* width: 100%; */
+}
+
+
+.buttom:hover{
+    /* background: black; */
+    /* color: white; */
+    /* transform: scale(1.05); */
+    background: black;
+    color: white;
+    transition: .25s;
+    box-shadow: 5px 5px 2px rgba(0,0,0,.1)
+}
+
+.buttom:active{
+    /* background: black; */
+    /* color: white; */
+    transform: scale(.9);
+    background: green;
+    color: white;
+    transition: .25s;
+    box-shadow: 5px 5px 2px rgba(0,0,0,.1)
+}
+
+.value{
+    background-color: white;
+    display: block;
+    width: 250px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-bottom: solid white;
+    transition: .25s;
+}
+
+.value:focus{
+    transition: .2s;
+    border-bottom: solid black;
+    /* background: linear-gradient(-180deg,white,white,rgba(0,0,0,.1));
+    color: black;
+    border-bottom: solid black;
+    transform: scale(1.05);
+    transition: .25s;
+    box-shadow: 5px 5px 2px rgba(0,0,0,.1) */
+}
+
+.campo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    /* background-color: white; */
+    padding: 2px;
+    margin: 10px;
+    color: white;
+}
+
+.container{
+    background: rgba(232, 240, 254, .3);
+    padding:30px;
+    backdrop-filter: blur(10px);
+    color: white;
+}
+
+label{
+    margin-left: 10px;
+    
+
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nuevo input{
+    margin: 5px;
+
+}
+
+
+.error{
+    color: yellow;
+    font-weight: bold;
+    margin: 10px;
+
+}
